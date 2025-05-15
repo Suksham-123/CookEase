@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textView_instruction_name" type="id" />
+    <item name="recycler_instruction_steps" type="id" />
+    <item name="imageView_instructions_step_items" type="id" />
+    <item name="textView_instructions_step_items" type="id" />
+    <item name="textView_instructions_step_number" type="id" />
+    <item name="textView_instructions_step_title" type="id" />
+    <item name="recycler_product_matches" type="id" />
+    <item name="text_duration" type="id" />
+    <item name="textView_step_description" type="id" />
+    <item name="textView_ingredients_original" type="id" />
+    <item name="textView_instruction_step_number" type="id" />
+    <item name="textView_instruction_step_description" type="id" />
+</resources>

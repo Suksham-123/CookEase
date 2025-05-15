@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/similar_recipe_holder"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="4dp"
+        tools:ignore="MergeRootFrame">
+
+        <!-- Your child views go here -->
+        <!-- Recipe Title -->
+        <TextView
+            android:id="@+id/textView_similar_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/similar_name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"
+            android:gravity="center"
+            android:padding="8dp"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true" />
+
+        <!-- Image -->
+        <ImageView
+            android:id="@+id/imageView_similar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/similar_image_desc" />
+
+        <!-- Serving Info -->
+        <TextView
+            android:id="@+id/textView_similar_serving"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/similar_name"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:padding="8dp"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/textView_similar_ready_in_minutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ready_in_minutes_template"
+            android:textAppearance="?attr/textAppearanceBody2" />
+
+        <TextView
+            android:id="@+id/textView_similar_source_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/view_recipe_source"
+            android:autoLink="web"
+            android:textColor="@color/link_color"
+            android:textAppearance="?attr/textAppearanceBody2" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

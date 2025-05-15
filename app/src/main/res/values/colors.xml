@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange">#E65100</color> <!-- Dark orange (better contrast) -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="dark_text">#212121</color>
+    <color name="accessible_orange">#E65100</color> <!-- darker orange -->
+    <color name="accessible_black">#212121</color>  <!-- deeper black -->
+    <color name="link_color">#0D47A1</color> <!-- darker blue -->
+    <color name="background_light">#FAFAFA</color> <!-- Subtle background -->
+    <color name="gray_divider">#BDBDBD</color> <!-- For subtle dividers if needed -->
+
+</resources>

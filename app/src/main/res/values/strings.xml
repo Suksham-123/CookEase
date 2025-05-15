@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ready_in_minutes">Ready in: %1$d mins</string>
+    <string name="servings">Servings: %1$d</string>
+    <string name="likes">Likes: %1$d</string>
+
+    <string name="app_name">CookEase</string>
+    <string name="search_hint">Search for recipes&#8230;</string>
+    <string name="ingredients_label">Ingredients</string>
+    <string name="instructions_label">Instructions</string>
+    <string name="no_results">No results found</string>
+    <string name="api_key">58d39e05683d41f788af9b73157b1c44</string>
+    <string name="loading_details">Loading Details&#8230;</string>
+    <string name="menu">Menu</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="source">Source</string>
+    <string name="summary">Summary</string>
+    <string name="similar_recipes">Similar Recipes</string>
+    <string name="step_number">1</string>
+    <string name="step_name">Step Name</string>
+    <string name="step_title">Step Title</string>
+    <string name="equipments">Equipments</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="recipe_details">Recipe Details</string>
+    <string name="dessert">Dessert</string>
+    <string name="ingredient_quantity">1 pc</string>
+    <string name="ingredient_name">Chicken</string>
+    <string name="ingredient_image_description">Image of ingredient</string>
+    <string name="ready_in_minutes_template">Ready in: 0 mins</string>
+    <string name="view_recipe_source">View Recipe Source</string>
+
+    <!-- Login strings -->
+    <string name="cookease_login">CookEase Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+
+    <!-- Tags -->
+    <string-array name="tags">
+        <item>main course</item>
+        <item>side dish</item>
+        <item>dessert</item>
+        <item>appetizer</item>
+        <item>salad</item>
+        <item>bread</item>
+        <item>breakfast</item>
+        <item>soup</item>
+        <item>beverage</item>
+        <item>sauce</item>
+        <item>marinade</item>
+        <item>finger food</item>
+        <item>snack</item>
+        <item>drink</item>
+    </string-array>
+
+    <!-- Similar Recipes -->
+    <string name="similar_name">Recipe Title</string>
+    <string name="similar_image_desc">Image of the similar recipe</string>
+
+    <!-- Formatting Strings -->
+    <string name="likes_format">%d Likes</string>
+    <string name="likes_text">Likes: %1$d</string>
+    <string name="servings_format">Servings: %d</string>
+    <string name="time_format">Ready in %d minutes</string>
+
+    <!-- Descriptive Strings -->
+    <string name="dish_name" translatable="false">Dish Name</string>
+    <string name="food_image_desc" translatable="false">Image of the dish</string>
+    <string name="servings_icon_desc" translatable="false">Icon representing servings</string>
+    <string name="likes_icon_desc" translatable="false">Icon representing likes</string>
+    <string name="time_icon_desc" translatable="false">Icon representing cooking time</string>
+    <string name="loading_data" translatable="false">Loading data, please wait</string>
+    <string name="ingredient_list_description" translatable="false">List of ingredients displayed here</string>
+    <string name="instruction_item">Item</string>
+    <string name="instruction_image_description">Step illustration</string>
+    <string name="instruction_title">Instruction</string>
+
+    <!-- Spinner and Settings -->
+    <string name="select_language">Select Language</string>
+    <string name="select_language_spinner">Language selection dropdown</string>
+
+    <!-- Progress Dialog Strings -->
+    <string name="loading_indicator">Loading indicator</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="likes_zero">Likes: 0</string>
+    <string name="servings_placeholder">Servings: __</string>
+
+    <!-- Newly added missing strings -->
+    <string name="step_image_desc">Image representing this recipe step</string>
+    <string name="instruction_text">Follow these instructions carefully to complete the recipe.</string>
+    <string name="instruction_text_desc">Text instructions for the recipe step</string>
+    <string name="product_image">Product Image</string>
+    <string name="product_title">Product Title</string>
+    <string name="product_description">Short description</string>
+    <string name="product_price">Price</string>
+    <string name="instruction_duration_format">Time: %1$d %2$s</string>
+    <string name="instruction_number">Instruction %1$d</string>
+    <string name="source_name_format">Source: %1$s</string>
+    <string name="ready_in_format">Ready in: %1$d mins</string>
+    <string name="product_match_list_description">List of product matches</string>
+    <string name="similar_recipe_card_description">Card displaying a similar recipe</string>
+    <string name="equipment_label">Equipment</string>
+    <string name="time_mins">Time: __mins</string>
+
+    <string name="title_search">Search Recipes by Ingredients</string>
+    <string name="hint_ingredients">Enter ingredients (comma separated)</string>
+    <string name="button_search">Search</string>
+    <string name="hint_enter_ingredients">Enter ingredients (e.g. egg, tomato)</string>
+
+
+    <!-- ✅ Added to fix the adapter layout error -->
+    <string name="recipe_title">Recipe Title</string>
+
+</resources>
